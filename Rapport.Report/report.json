@@ -483,15 +483,6 @@
           "z": 25000.00
         },
         {
-          "config": "{\"name\":\"cbdffc8708a507c0ba0c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":612.3066184857036,\"y\":111.2095354087282,\"z\":25001,\"width\":198.86881626031396,\"height\":37.94207678650727,\"tabOrder\":23003}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Bonjour Patrick mballa\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontStyle\":\"italic\",\"color\":\"#329d9c\"}}]}]}}]}}}",
-          "filters": "[]",
-          "height": 37.94,
-          "width": 198.87,
-          "x": 612.31,
-          "y": 111.21,
-          "z": 25001.00
-        },
-        {
           "config": "{\"name\":\"df93855191df8786fc70\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.930178432893715,\"y\":9.930178432893715,\"z\":0,\"width\":49.65089216446858,\"height\":1089.3405740884407,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#232448'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
           "filters": "[]",
           "height": 1089.34,
