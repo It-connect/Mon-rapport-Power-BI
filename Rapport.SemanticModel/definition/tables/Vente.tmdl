@@ -1,0 +1,103 @@
+table Vente
+	lineageTag: c82cde41-5b87-407e-9245-30ac422e33cd
+
+	column 'Id commande'
+		dataType: string
+		lineageTag: 2219ca4b-6237-4cf7-b342-bf8a7ca27186
+		summarizeBy: none
+		sourceColumn: Id commande
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id client'
+		dataType: string
+		lineageTag: ff1e9697-799e-4b8e-ae66-f3d0b00ff13e
+		summarizeBy: none
+		sourceColumn: Id client
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id produit'
+		dataType: string
+		lineageTag: fbe042a2-e3f9-414d-bf6b-4099ea7a81ff
+		summarizeBy: none
+		sourceColumn: Id produit
+
+		annotation SummarizationSetBy = Automatic
+
+	column Région
+		dataType: string
+		lineageTag: cf927389-59f7-460c-8742-40d3367dbd78
+		summarizeBy: none
+		sourceColumn: Région
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date commande'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d1e06d15-0142-477f-8946-abc9d24c6b49
+		summarizeBy: none
+		sourceColumn: Date commande
+
+		variation Variation
+			isDefault
+			relationship: 5520bd6e-7ad2-4035-9d0f-ee26e3fe2a5a
+			defaultHierarchy: LocalDateTable_638acd6c-5740-46c3-9103-418d02e31c20.'Hiérarchie de dates'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Quantité
+		dataType: int64
+		formatString: 0
+		lineageTag: c5af7e07-2eb6-4203-8251-102b0b477b24
+		summarizeBy: sum
+		sourceColumn: Quantité
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Prix unitaire'
+		dataType: decimal
+		formatString: #,0.###############\ "Rs";-#,0.###############\ "Rs";#,0.###############\ "Rs"
+		lineageTag: 9bca16aa-521a-4830-ba68-1178b2c024b3
+		summarizeBy: sum
+		sourceColumn: Prix unitaire
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-MU"}
+
+	column 'Prix total'
+		dataType: decimal
+		formatString: #,0.###############\ "Rs";-#,0.###############\ "Rs";#,0.###############\ "Rs"
+		lineageTag: cdc7280f-5b6e-40d8-8f08-d76779aa6324
+		summarizeBy: sum
+		sourceColumn: Prix total
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-MU"}
+
+	column 'Staut commande'
+		dataType: string
+		lineageTag: 644c7e87-e98d-41c8-bd87-1821d5af01f2
+		summarizeBy: none
+		sourceColumn: Staut commande
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Vente = m
+		mode: import
+		source =
+				let
+				    Source = Vente_ref,
+				    #"Colonnes supprimées" = Table.RemoveColumns(Source,{"Nom client", "Nom produit", "Catégorie produit", "Nom région"})
+				in
+				    #"Colonnes supprimées"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

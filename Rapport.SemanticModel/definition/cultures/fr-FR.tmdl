@@ -1,0 +1,2315 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "client": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clients"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "client": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "client.id_client": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clients",
+			          "ConceptualProperty": "Id client"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id client": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "client.nom_client": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Clients",
+			          "ConceptualProperty": "Nom client"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom client": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nom customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nom shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nom consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nom patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nom user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nom buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nom punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nom purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nom regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Produits"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "produit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "produit.id_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Produits",
+			          "ConceptualProperty": "Id produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id produit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification produit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity produit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier produit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential produit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "produit.nom_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Produits",
+			          "ConceptualProperty": "Nom produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom produit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "produit.catégorie_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Produits",
+			          "ConceptualProperty": "Catégorie produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "catégorie produit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "région": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Régions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "région": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "région.id_région": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Régions",
+			          "ConceptualProperty": "Id région"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id région": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification région": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity région": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier région": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential région": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "région.nom_région": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Régions",
+			          "ConceptualProperty": "Nom région"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom région": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vente.id_commande": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Id commande"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id commande": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification commande": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity commande": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier commande": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential commande": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "vente.id_client": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Id client"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id client": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "vente.id_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Id produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id produit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification produit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity produit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier produit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential produit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "vente.région": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Région"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "région": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vente.date_commande": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Date commande"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date commande": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment commande": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period commande": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vente.date_commande.hiérarchie_de_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "VariationSource": "Date commande",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hiérarchie de date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hiérarchie de moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hiérarchie de period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "vente.date_commande.année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "VariationSource": "Date commande",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date commande année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment commande année": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period commande année": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vente.date_commande.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "VariationSource": "Date commande",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date commande trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment commande trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period commande trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vente.date_commande.mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "VariationSource": "Date commande",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date commande mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment commande mois": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period commande mois": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vente.date_commande.jour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "VariationSource": "Date commande",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Jour"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date commande jour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment commande jour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period commande jour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vente.quantité": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Quantité"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantité": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vente.prix_unitaire": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Prix unitaire"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prix unitaire": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vente.prix_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Prix total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prix total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prix aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "prix overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vente.staut_commande": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vente",
+			          "ConceptualProperty": "Staut commande"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "staut commande": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mesure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesures"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mesure": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.total_ventes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesures",
+			          "ConceptualProperty": "Total ventes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total ventes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate vente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall vente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nombre_de_commandes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesures",
+			          "ConceptualProperty": "Nombre de commandes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre de commandes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Commandes annulées": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.quantité_vendue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesures",
+			          "ConceptualProperty": "Quantité vendue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantité vendue": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.commande_moyenne": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesures",
+			          "ConceptualProperty": "Commande moyenne"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "commande moyenne": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "client_has_id_client": {
+			      "Binding": {
+			        "ConceptualEntity": "Clients"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "client": {
+			          "Target": {
+			            "Entity": "client"
+			          }
+			        },
+			        "client.id_client": {
+			          "Target": {
+			            "Entity": "client.id_client"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "client"
+			            },
+			            "Object": {
+			              "Role": "client.id_client"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clients_have_id_clients"
+			        }
+			      ]
+			    },
+			    "client_has_nom_client": {
+			      "Binding": {
+			        "ConceptualEntity": "Clients"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "client": {
+			          "Target": {
+			            "Entity": "client"
+			          }
+			        },
+			        "client.nom_client": {
+			          "Target": {
+			            "Entity": "client.nom_client"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "client"
+			            },
+			            "Object": {
+			              "Role": "client.nom_client"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clients_have_nom_clients"
+			        }
+			      ]
+			    },
+			    "produit_has_id_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "Produits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "produit": {
+			          "Target": {
+			            "Entity": "produit"
+			          }
+			        },
+			        "produit.id_produit": {
+			          "Target": {
+			            "Entity": "produit.id_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "produit"
+			            },
+			            "Object": {
+			              "Role": "produit.id_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "produits_have_id_produits"
+			        }
+			      ]
+			    },
+			    "produit_has_nom_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "Produits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "produit": {
+			          "Target": {
+			            "Entity": "produit"
+			          }
+			        },
+			        "produit.nom_produit": {
+			          "Target": {
+			            "Entity": "produit.nom_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "produit"
+			            },
+			            "Object": {
+			              "Role": "produit.nom_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "produits_have_nom_produits"
+			        }
+			      ]
+			    },
+			    "produit_has_catégorie_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "Produits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "produit": {
+			          "Target": {
+			            "Entity": "produit"
+			          }
+			        },
+			        "produit.catégorie_produit": {
+			          "Target": {
+			            "Entity": "produit.catégorie_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "produit"
+			            },
+			            "Object": {
+			              "Role": "produit.catégorie_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "produits_have_catégorie_produits"
+			        }
+			      ]
+			    },
+			    "région_has_id_région": {
+			      "Binding": {
+			        "ConceptualEntity": "Régions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "région": {
+			          "Target": {
+			            "Entity": "région"
+			          }
+			        },
+			        "région.id_région": {
+			          "Target": {
+			            "Entity": "région.id_région"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "région"
+			            },
+			            "Object": {
+			              "Role": "région.id_région"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "régions_have_id_régions"
+			        }
+			      ]
+			    },
+			    "région_has_nom_région": {
+			      "Binding": {
+			        "ConceptualEntity": "Régions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "région": {
+			          "Target": {
+			            "Entity": "région"
+			          }
+			        },
+			        "région.nom_région": {
+			          "Target": {
+			            "Entity": "région.nom_région"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "région"
+			            },
+			            "Object": {
+			              "Role": "région.nom_région"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "régions_have_nom_régions"
+			        }
+			      ]
+			    },
+			    "vente_has_id_commande": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "vente.id_commande": {
+			          "Target": {
+			            "Entity": "vente.id_commande"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "vente.id_commande"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_id_commandes"
+			        }
+			      ]
+			    },
+			    "vente_has_date_commande": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "vente.date_commande": {
+			          "Target": {
+			            "Entity": "vente.date_commande"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_date_commandes"
+			        }
+			      ]
+			    },
+			    "vente_has_quantité": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "vente.quantité": {
+			          "Target": {
+			            "Entity": "vente.quantité"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "vente.quantité"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_quantité"
+			        }
+			      ]
+			    },
+			    "vente_has_prix_unitaire": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "vente.prix_unitaire": {
+			          "Target": {
+			            "Entity": "vente.prix_unitaire"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "vente.prix_unitaire"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_prix_unitaires"
+			        }
+			      ]
+			    },
+			    "vente_has_prix_total": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "vente.prix_total": {
+			          "Target": {
+			            "Entity": "vente.prix_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "vente.prix_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_prix_totals"
+			        }
+			      ]
+			    },
+			    "vente_has_staut_commande": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "vente.staut_commande": {
+			          "Target": {
+			            "Entity": "vente.staut_commande"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "vente.staut_commande"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_staut_commandes"
+			        }
+			      ]
+			    },
+			    "vente_has_mesure_total_ventes": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "mesure.total_ventes": {
+			          "Target": {
+			            "Entity": "mesure.total_ventes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "mesure.total_ventes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_total_ventes"
+			        }
+			      ]
+			    },
+			    "vente_has_mesure_nombre_de_commandes": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "mesure.nombre_de_commandes": {
+			          "Target": {
+			            "Entity": "mesure.nombre_de_commandes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "mesure.nombre_de_commandes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_nombre_de_commandes"
+			        }
+			      ]
+			    },
+			    "vente_has_mesure_quantité_vendue": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "mesure.quantité_vendue": {
+			          "Target": {
+			            "Entity": "mesure.quantité_vendue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "mesure.quantité_vendue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_quantité_vendue"
+			        }
+			      ]
+			    },
+			    "vente_has_mesure_commande_moyenne": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "mesure.commande_moyenne": {
+			          "Target": {
+			            "Entity": "mesure.commande_moyenne"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "mesure.commande_moyenne"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_commande_moyenne"
+			        }
+			      ]
+			    },
+			    "vente_has_client": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "client": {
+			          "Target": {
+			            "Entity": "client"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "client"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_clients"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "client"
+			            },
+			            "Object": {
+			              "Role": "vente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clients_have_ventes"
+			        }
+			      ]
+			    },
+			    "vente_has_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "produit": {
+			          "Target": {
+			            "Entity": "produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_produits"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "produit"
+			            },
+			            "Object": {
+			              "Role": "vente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "produits_have_ventes"
+			        }
+			      ]
+			    },
+			    "vente_has_région": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente": {
+			          "Target": {
+			            "Entity": "vente"
+			          }
+			        },
+			        "région": {
+			          "Target": {
+			            "Entity": "région"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente"
+			            },
+			            "Object": {
+			              "Role": "région"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ventes_have_régions"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "région"
+			            },
+			            "Object": {
+			              "Role": "vente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "régions_have_ventes"
+			        }
+			      ]
+			    },
+			    "vente_date_commande_has_hiérarchie_de_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente.date_commande": {
+			          "Target": {
+			            "Entity": "vente.date_commande"
+			          }
+			        },
+			        "vente.date_commande.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "vente.date_commande.hiérarchie_de_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.hiérarchie_de_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_commandes_have_hiérarchie_de_dates"
+			        }
+			      ]
+			    },
+			    "vente_date_commande_hiérarchie_de_date_has_vente_date_commande_année": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente.date_commande.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "vente.date_commande.hiérarchie_de_date"
+			          }
+			        },
+			        "vente.date_commande.année": {
+			          "Target": {
+			            "Entity": "vente.date_commande.année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_années"
+			        }
+			      ]
+			    },
+			    "vente_date_commande_hiérarchie_de_date_has_vente_date_commande_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente.date_commande.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "vente.date_commande.hiérarchie_de_date"
+			          }
+			        },
+			        "vente.date_commande.trimestre": {
+			          "Target": {
+			            "Entity": "vente.date_commande.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_trimestres"
+			        }
+			      ]
+			    },
+			    "vente_date_commande_hiérarchie_de_date_has_vente_date_commande_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente.date_commande.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "vente.date_commande.hiérarchie_de_date"
+			          }
+			        },
+			        "vente.date_commande.mois": {
+			          "Target": {
+			            "Entity": "vente.date_commande.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_moises"
+			        }
+			      ]
+			    },
+			    "vente_date_commande_hiérarchie_de_date_has_vente_date_commande_jour": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente.date_commande.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "vente.date_commande.hiérarchie_de_date"
+			          }
+			        },
+			        "vente.date_commande.jour": {
+			          "Target": {
+			            "Entity": "vente.date_commande.jour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.jour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_jour"
+			        }
+			      ]
+			    },
+			    "vente_date_commande_année_has_vente_date_commande_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente.date_commande.année": {
+			          "Target": {
+			            "Entity": "vente.date_commande.année"
+			          }
+			        },
+			        "vente.date_commande.trimestre": {
+			          "Target": {
+			            "Entity": "vente.date_commande.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.année"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "années_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_années"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vente.date_commande.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vente.date_commande.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_années"
+			        }
+			      ]
+			    },
+			    "vente_date_commande_trimestre_has_vente_date_commande_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente.date_commande.trimestre": {
+			          "Target": {
+			            "Entity": "vente.date_commande.trimestre"
+			          }
+			        },
+			        "vente.date_commande.mois": {
+			          "Target": {
+			            "Entity": "vente.date_commande.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_moises"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.mois"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vente.date_commande.mois"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vente.date_commande.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "vente_date_commande_mois_has_vente_date_commande_jour": {
+			      "Binding": {
+			        "ConceptualEntity": "Vente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vente.date_commande.mois": {
+			          "Target": {
+			            "Entity": "vente.date_commande.mois"
+			          }
+			        },
+			        "vente.date_commande.jour": {
+			          "Target": {
+			            "Entity": "vente.date_commande.jour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.mois"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.jour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_jour"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vente.date_commande.jour"
+			            },
+			            "Object": {
+			              "Role": "vente.date_commande.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jour_have_moises"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vente.date_commande.jour"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vente.date_commande.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jour_are_in_moises"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

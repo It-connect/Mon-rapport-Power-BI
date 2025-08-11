@@ -1,0 +1,14 @@
+expression Vente_ref =
+		let
+		    Source = Csv.Document(File.Contents("C:\Users\tawklaixuwk\OneDrive\Desktop\Projet Power BI\sales_2.csv"),[Delimiter=",", Columns=13, Encoding=1250, QuoteStyle=QuoteStyle.None]),
+		    #"En-têtes promus" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+		    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"OrderID", type text}, {"CustomerID", type text}, {"CompanyName", type text}, {"ProductID", type text}, {"ProductName", type text}, {"Category", type text}, {"RegionID", type text}, {"RegionName", type text}, {"OrderDate", type date}, {"Quantity", Int64.Type}, {"UnitPrice", Currency.Type}, {"TotalPrice", Currency.Type}, {"OrderStatus", type text}}),
+		    #"Colonnes renommées" = Table.RenameColumns(#"Type modifié",{{"OrderID", "Id commande"}, {"CustomerID", "Id client"}, {"CompanyName", "Nom client"}, {"ProductID", "Id produit"}, {"ProductName", "Nom produit"}, {"Category", "Catégorie produit"}, {"RegionID", "Région"}, {"RegionName", "Nom région"}, {"OrderDate", "Date commande"}, {"Quantity", "Quantité"}, {"UnitPrice", "Prix unitaire"}, {"TotalPrice", "Prix total"}, {"OrderStatus", "Staut commande"}})
+		in
+		    #"Colonnes renommées"
+	lineageTag: 366b074e-09ec-4cd6-a31e-d77415f2d74c
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

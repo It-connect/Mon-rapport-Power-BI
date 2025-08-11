@@ -1,0 +1,35 @@
+table Régions
+	lineageTag: d5da3cbc-aad8-431a-9662-f83c2f12176c
+
+	column 'Id région'
+		dataType: string
+		lineageTag: c5db3f77-b488-43f8-8573-577441c83ff5
+		summarizeBy: none
+		sourceColumn: Id région
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nom région'
+		dataType: string
+		lineageTag: 78af87fe-468f-4f43-aa11-8f6e76b370c2
+		summarizeBy: none
+		sourceColumn: Nom région
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Régions = m
+		mode: import
+		source =
+				let
+				    Source = Vente_ref,
+				    #"Colonnes renommées" = Table.RenameColumns(Source,{{"Région", "Id région"}}),
+				    #"Lignes groupées" = Table.Group(#"Colonnes renommées", {"Id région", "Nom région"}, {{"Nombre", each Table.RowCount(_), Int64.Type}}),
+				    #"Colonnes supprimées" = Table.RemoveColumns(#"Lignes groupées",{"Nombre"}),
+				    #"Lignes triées" = Table.Sort(#"Colonnes supprimées",{{"Id région", Order.Ascending}})
+				in
+				    #"Lignes triées"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

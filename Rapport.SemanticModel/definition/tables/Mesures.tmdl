@@ -1,0 +1,52 @@
+table Mesures
+	lineageTag: 26b6f566-d0e1-4ba5-96d8-9712e19066ee
+
+	measure 'Total ventes' = SUM(Vente[Prix total])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 89a79ce8-17dd-4b3f-b063-336467d0c161
+
+	measure 'Nombre de commandes' = DISTINCTCOUNT(Vente[Id commande])
+		formatString: 0
+		lineageTag: 28375b86-5cf5-45ba-b635-26c1d187a6b8
+
+	measure 'Quantité vendue' = SUM(Vente[Quantité])
+		formatString: #,0
+		lineageTag: 53966cb1-f321-4b47-9f97-cbaff4c5f4bb
+
+	measure 'Commande moyenne' = DIVIDE([Total ventes], [Nombre de commandes])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 826633a1-3fd1-4618-b114-e3af719cfa84
+
+	measure 'Commandes annulées' =
+			CALCULATE(
+			    DISTINCTCOUNT(Vente[Id commande]),
+			    Vente[Staut commande] = "Cancelled")
+		lineageTag: 055111dd-c7c8-45ec-bf30-b33aef666115
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Montant commande annulées' =
+			CALCULATE(
+			    SUM(Vente[Prix total]),
+			    Vente[Staut commande] = "Cancelled")
+		formatString: #,0\ \$;(#,0\ \$);#,0\ \$
+		lineageTag: 63d9cca6-d43b-4603-84b4-cfa0857daf7e
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-CA"}
+
+	measure 'Pourcentage commandes annulées' = DIVIDE([Commandes annulées], [Nombre de commandes])
+		formatString: 0\ %;-0\ %;0\ %
+		lineageTag: 72a45994-9041-43e9-b1d7-0b431ed43633
+
+	partition Mesures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Colonne 1" = _t]),
+				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"Colonne 1", type text}}),
+				    #"Colonnes supprimées" = Table.RemoveColumns(#"Type modifié",{"Colonne 1"})
+				in
+				    #"Colonnes supprimées"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,17 @@
+relationship 5520bd6e-7ad2-4035-9d0f-ee26e3fe2a5a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Vente.'Date commande'
+	toColumn: LocalDateTable_638acd6c-5740-46c3-9103-418d02e31c20.Date
+
+relationship AutoDetected_a94ed365-9c99-452f-aa7c-ffd118c88341
+	fromColumn: Vente.'Id client'
+	toColumn: Clients.'Id client'
+
+relationship AutoDetected_ef8b788f-cd7f-40c2-b199-4a232dcb3793
+	fromColumn: Vente.'Id produit'
+	toColumn: Produits.'Id produit'
+
+relationship AutoDetected_cfb514a5-879b-43b8-bfac-cc8aff001a9f
+	fromColumn: Vente.Région
+	toColumn: Régions.'Id région'
+
