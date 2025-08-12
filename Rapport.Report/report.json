@@ -330,6 +330,15 @@
           "z": 16000.00
         },
         {
+          "config": "{\"name\":\"22660bfdc50b2884eb65\",\"layouts\":[{\"id\":0,\"position\":{\"x\":542.964202289673,\"y\":105.976145507141,\"z\":25001,\"width\":251.20271527618607,\"height\":119.05962026110902,\"tabOrder\":25001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Bonjour\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"42pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 119.06,
+          "width": 251.20,
+          "x": 542.96,
+          "y": 105.98,
+          "z": 25001.00
+        },
+        {
           "config": "{\"name\":\"2279ff1190da6b313fd4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1076.1839396019218,\"y\":115.9643102264928,\"z\":14000,\"width\":197.66643788606729,\"height\":108.93617021276597,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Mesures.Commande moyenne\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Mesures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Commande moyenne\"},\"Name\":\"Mesures.Commande moyenne\",\"NativeReferenceName\":\"Commande moyenne\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Commande moyenne\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"34D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"categoryLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
           "height": 108.94,
